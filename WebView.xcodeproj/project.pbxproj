@@ -14,6 +14,7 @@
 		B7FCF8071EC67FCD00C502B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FCF8051EC67FCD00C502B7 /* LaunchScreen.storyboard */; };
 		B7FCF8121EC67FCD00C502B7 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FCF8111EC67FCD00C502B7 /* WebViewTests.swift */; };
 		B7FCF81D1EC67FCD00C502B7 /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FCF81C1EC67FCD00C502B7 /* WebViewUITests.swift */; };
+		B7FCF82B1ECA3EA100C502B7 /* page.html in Resources */ = {isa = PBXBuildFile; fileRef = B7FCF82A1ECA3EA100C502B7 /* page.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B7FCF8181EC67FCD00C502B7 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FCF81C1EC67FCD00C502B7 /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		B7FCF81E1EC67FCD00C502B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FCF82A1ECA3EA100C502B7 /* page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = page.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B7FCF8031EC67FCD00C502B7 /* Assets.xcassets */,
 				B7FCF8051EC67FCD00C502B7 /* LaunchScreen.storyboard */,
 				B7FCF8081EC67FCD00C502B7 /* Info.plist */,
+				B7FCF82A1ECA3EA100C502B7 /* page.html */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FCF8071EC67FCD00C502B7 /* LaunchScreen.storyboard in Resources */,
+				B7FCF82B1ECA3EA100C502B7 /* page.html in Resources */,
 				B7FCF8041EC67FCD00C502B7 /* Assets.xcassets in Resources */,
 				B7FCF8021EC67FCD00C502B7 /* Main.storyboard in Resources */,
 			);
