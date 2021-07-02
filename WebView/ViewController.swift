@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import AVFoundation
 
 class ViewController: UIViewController {
     
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         //Loads an html file
         //let url: URL = Bundle.main.url(forResource: "page", withExtension: "html")!
         //Loads a page from url
-        let url: URL = URL(string: "https://www.google.com")!
+        let url: URL = URL(string: "https://pt.webcamtests.com/")!
         let request: URLRequest = URLRequest(url: url)
         webView.load(request)
         
@@ -38,6 +39,16 @@ class ViewController: UIViewController {
         
         view.addConstraints([width, height, top])
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        AVCaptureDevice.requestAccess(forMediaType:AVMediaTypeVideo) { response in
+            if response {
+                //access granted
+            } else {
+                
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
